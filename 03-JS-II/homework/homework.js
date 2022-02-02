@@ -8,6 +8,12 @@ function obtenerMayor(x, y) {
 }
 
 function mayoriaDeEdad(edad) {
+
+  if(edad<18){
+    return "allowed"
+  }else{
+    return " not allowed"
+  }
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
